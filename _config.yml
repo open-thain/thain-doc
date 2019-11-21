@@ -96,5 +96,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:XiaoMi/thain.git
+  repo: https://github.com/XiaoMi/thain.git
   branch: [gh-pages]
