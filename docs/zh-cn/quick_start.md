@@ -12,16 +12,20 @@
    git clone https://github.com/XiaoMi/thain.git
    ```
 
-1. 运行环境需要 jdk 8 以上， maven3, node 8 以上
+1. 运行环境需求
+    - jdk >= 8
+    - maven 3
+    - nodejs >= 8
+    - 操作系统：Linux 或 MacOS 测试通过，windows前端编译*可能*会有问题
 
 1. 在项目根目录下依次执行
 
    ```shell
-     cd thain-fe
-     npm install
-     npm run build
-     cd ..
-     mvn -U clean package
+   cd thain-fe
+   npm install
+   npm run build
+   cd ..
+   mvn -U clean package
    ```
 
 1. 打包完成后，即可运行
