@@ -32,7 +32,7 @@ export default {
               },
               {
                 title: '用户管理',
-                link: '/zh-cn/docs/custom-deployment/database.html',
+                link: '/zh-cn/docs/custom-deployment/user.html',
               },
             ],
           },
