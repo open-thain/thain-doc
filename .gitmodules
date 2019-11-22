@@ -3,4 +3,4 @@
 	url = https://github.com/kaiiiz/hexo-theme-book.git
 [submodule "themes/book"]
 	path = themes/book
-	url = git@github.com:kaiiiz/hexo-theme-book.git
+	url = https://github.com/kaiiiz/hexo-theme-book.git
