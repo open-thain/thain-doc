@@ -18,36 +18,36 @@ export default {
         link: '/en-us/docs/demo1.html',
       },
     ],
-    disclaimer: {
-      title: 'Disclaimer',
-      content: 'the disclaimer content',
-    },
-    documentation: {
-      title: 'Documentation',
-      list: [
-        {
-          text: 'Overview',
-          link: '/en-us/docs/demo1.html',
-        },
-        {
-          text: 'Quick start',
-          link: '/en-us/docs/demo2.html',
-        },
-        {
-          text: 'Developer guide',
-          link: '/en-us/docs/dir/demo3.html',
-        },
-      ],
-    },
-    resources: {
-      title: 'Resources',
-      list: [
-        {
-          text: 'GitHub',
-          link: 'https://github.com/XiaoMi/thain/issues',
-        },
-      ],
-    },
+    // disclaimer: {
+    //   title: 'Disclaimer',
+    //   content: 'the disclaimer content',
+    // },
+    // documentation: {
+    //   title: 'Documentation',
+    //   list: [
+    //     {
+    //       text: 'Overview',
+    //       link: '/en-us/docs/demo1.html',
+    //     },
+    //     {
+    //       text: 'Quick start',
+    //       link: '/en-us/docs/demo2.html',
+    //     },
+    //     {
+    //       text: 'Developer guide',
+    //       link: '/en-us/docs/dir/demo3.html',
+    //     },
+    //   ],
+    // },
+    // resources: {
+    //   title: 'Resources',
+    //   list: [
+    //     {
+    //       text: 'GitHub',
+    //       link: 'https://github.com/XiaoMi/thain/issues',
+    //     },
+    //   ],
+    // },
     copyright: 'Copyright © 2020 XIAOMI ',
   },
   'zh-cn': {
@@ -63,36 +63,36 @@ export default {
         link: '/zh-cn/docs/demo1.html',
       },
     ],
-    disclaimer: {
-      title: '免责声明',
-      content: '免责声明的具体内容',
-    },
-    documentation: {
-      title: '文档',
-      list: [
-        {
-          text: '概览',
-          link: '/zh-cn/docs/demo1.html',
-        },
-        {
-          text: '快速开始',
-          link: '/zh-cn/docs/demo2.html',
-        },
-        {
-          text: '开发者指南',
-          link: '/zh-cn/docs/dir/demo3.html',
-        },
-      ],
-    },
-    resources: {
-      title: '资源',
-      list: [
-        {
-          text: 'GitHub',
-          link: 'https://github.com/XiaoMi/thain/issues',
-        },
-      ],
-    },
+    // disclaimer: {
+    //   title: '免责声明',
+    //   content: '免责声明的具体内容',
+    // },
+    // documentation: {
+    //   title: '文档',
+    //   list: [
+    //     {
+    //       text: '概览',
+    //       link: '/zh-cn/docs/demo1.html',
+    //     },
+    //     {
+    //       text: '快速开始',
+    //       link: '/zh-cn/docs/demo2.html',
+    //     },
+    //     {
+    //       text: '开发者指南',
+    //       link: '/zh-cn/docs/dir/demo3.html',
+    //     },
+    //   ],
+    // },
+    // resources: {
+    //   title: '资源',
+    //   list: [
+    //     {
+    //       text: 'GitHub',
+    //       link: 'https://github.com/XiaoMi/thain/issues',
+    //     },
+    //   ],
+    // },
     copyright: 'Copyright © 2020 XIAOMI ',
    },
 };
