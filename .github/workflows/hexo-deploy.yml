@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: "10.x"
 
-      - name: Setup Hexo env
+      - name: set git env
         env:
           ACTION_DEPLOY_KEY: ${{ secrets.ACTION_DEPLOY_KEY }}
         run: |
@@ -28,15 +28,22 @@ jobs:
           # set git infomation
           git config --global user.name 'liangyongrui'
           git config --global user.email 'leungyongrui@gmail.com'
-          # install dependencies
-          npm i -g hexo-cli
-          npm i
-          # install pandoc
-          # curl -s -L https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-linux.tar.gz | tar xvzf - -C $RUNNER_TOOL_CACHE/
 
-      - name: Deploy
+      - name: check out page
         run: |
-          # add pandoc to PATH
-          # export PATH="$PATH:$RUNNER_TOOL_CACHE/pandoc-2.7.3/bin"
-          # publish
-          hexo generate && hexo deploy
+          git clone -b gh-pages git@github.com:XiaoMi/thain.git
+          rm -rf *
+
+      - name: build and copy
+        run: |
+          npm i -g docsite
+          npm i
+          docsite build
+          cp -R -f {build,img,zh-cn,en-us,index.html,404.html} thain
+      
+      - name: push
+        run: |
+          cd thain
+          git add .
+          git commit -am 'update doc'
+          git push -f
