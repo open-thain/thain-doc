@@ -70,7 +70,7 @@ export default {
       title: '谁在使用Thain',
       desc: <span>如果你也在用，请联系我们https://github.com/XiaoMi/thain/issues</span>,
       list: [
-        '/img/xiaomi-logo.jpg',
+        '/img/xiaomi-logo.png',
       ],
     },
   },
@@ -143,7 +143,7 @@ export default {
       title: 'Who is using Thain',
       desc: <span>If you are also using, please contact us at https://github.com/XiaoMi/thain/issues</span>,
       list: [
-        '/img/xiaomi-logo.jpg',
+        '/img/xiaomi-logo.png',
       ],
     },
   },
