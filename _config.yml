@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Thain
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: LiangYongrui
+language: zh
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://xiaomi.github.io/thain
 root: /thain/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -96,5 +96,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:XiaoMi/thain.git
+  repo: ht@github.com:XiaoMi/thain.git
   branch: [gh-pages]
