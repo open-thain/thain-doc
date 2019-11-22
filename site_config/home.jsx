@@ -58,6 +58,15 @@ export default {
         },
       ],
     },
+    start: {
+      title: '快速开始',
+      desc: '简单描述',
+      img: '/img/quick_start.png',
+      button: {
+        text: '阅读更多',
+        link: '/zh-cn/docs/demo1.html',
+      },
+    },
     users: {
       title: '谁在使用Thain',
       desc: <span>如果你也在用，请联系我们https://github.com/XiaoMi/thain/issues</span>,
@@ -122,6 +131,15 @@ export default {
           content: 'The duration of the task is fully guaranteed.',
         }
       ]
+    },
+    start: {
+      title: '快速开始',
+      desc: '简单描述',
+      img: '/img/quick_start.png',
+      button: {
+        text: '阅读更多',
+        link: '/zh-cn/docs/demo1.html',
+      },
     },
     users: {
       title: 'Who is using Thain',
