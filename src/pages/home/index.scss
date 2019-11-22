@@ -401,7 +401,7 @@ $animation5Height: 460px;
       content: '';
       position: absolute;
       top: 0;
-      left: 50%;
+      left: 90%;
       transform: translateX(-50%);
       margin: 0 auto;
       height: 83px;
@@ -412,7 +412,7 @@ $animation5Height: 460px;
       content: '';
       position: absolute;
       top: 66px;
-      left: 50%;
+      left: 90%;
       transform: translateX(-50%);
       width: 3px;
       height: 17px;
@@ -444,7 +444,7 @@ $animation5Height: 460px;
       text-align: center;
       img {
         margin-right: 10px;
-        width: 140px;
+        // width: 140px;
         height: 80px;
         margin-bottom: 40px;
       }

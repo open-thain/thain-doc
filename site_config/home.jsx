@@ -58,14 +58,14 @@ export default {
         },
       ],
     },
-    // start: {
-    //   title: '快速开始',
-    //   img: '/img/quick_start.png',
-    //   button: {
-    //     text: '阅读更多',
-    //     link: '/zh-cn/docs/quick_start.html',
-    //   },
-    // },
+    start: {
+      title: '快速开始',
+      img: '/img/quick_start.png',
+      button: {
+        text: '阅读更多',
+        link: '/zh-cn/docs/quick_start.html',
+      },
+    },
     users: {
       title: '谁在使用Thain',
       desc: <span>如果你也在用，请联系我们https://github.com/XiaoMi/thain/issues</span>,
@@ -131,14 +131,14 @@ export default {
         }
       ]
     },
-    // start: {
-    //   title: 'quick start',
-    //   img: '/img/quick_start.png',
-    //   button: {
-    //     text: 'read more',
-    //     link: '/zh-cn/docs/quick_start.html',
-    //   },
-    // },
+    start: {
+      title: 'quick start',
+      img: '/img/quick_start.png',
+      button: {
+        text: 'read more',
+        link: '/zh-cn/docs/quick_start.html',
+      },
+    },
     users: {
       title: 'Who is using Thain',
       desc: <span>If you are also using, please contact us at https://github.com/XiaoMi/thain/issues</span>,

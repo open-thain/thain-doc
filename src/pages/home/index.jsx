@@ -92,6 +92,7 @@ class Home extends Language {
             <div className="right-part"><img src={getLink('/img/quick_start.png')} /></div>
           </div>
         </section> */}
+        <div style={{ background: '#F8F8F8' }}>
         <section className="users-section">
           <h3>{dataSource.users.title}</h3>
           <p>{dataSource.users.desc}</p>
@@ -103,6 +104,7 @@ class Home extends Language {
           }
           </div>
         </section>
+        </div>
         <Footer logo="/img/dubbo_gray.png" language={language} />
       </div>
     );
