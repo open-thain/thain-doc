@@ -29,15 +29,16 @@ jobs:
           git config --global user.name 'liangyongrui'
           git config --global user.email 'leungyongrui@gmail.com'
 
-      - name: check out page
-        run: |
-          git clone -b gh-pages git@github.com:XiaoMi/thain.git
-
       - name: build
         run: |
           npm i -g docsite
           npm i
           docsite build
+
+      - name: check out page
+        run: |
+          git clone -b gh-pages git@github.com:XiaoMi/thain.git
+
       - name: clean and copy
         run: |
           rm -rf thain/*
