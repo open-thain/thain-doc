@@ -75,13 +75,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: book
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/kaiiiz/hexo-theme-book-demo
-  branch: gh-pages
-
 markdown:
   render:
     html: true # Doesn't escape HTML content so the tags will appear as html.
