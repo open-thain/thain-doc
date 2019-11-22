@@ -8,7 +8,7 @@ export default {
       buttons: [
         {
           text: '立即开始',
-          link: '/zh-cn/docs/demo1.html',
+          link: '/zh-cn/docs/quick_start.html',
           type: 'primary',
         },
         {
@@ -63,7 +63,7 @@ export default {
       img: '/img/quick_start.png',
       button: {
         text: '阅读更多',
-        link: '/zh-cn/docs/demo1.html',
+        link: '/zh-cn/docs/quick_start.html',
       },
     },
     users: {
@@ -81,7 +81,7 @@ export default {
       buttons: [
         {
           text: 'Quick Start',
-          link: '/en-us/docs/demo1.html',
+          link: '/en-us/docs/wip.html',
           type: 'primary',
         },
         {
@@ -136,7 +136,7 @@ export default {
       img: '/img/quick_start.png',
       button: {
         text: 'read more',
-        link: '/zh-cn/docs/demo1.html',
+        link: '/zh-cn/docs/quick_start.html',
       },
     },
     users: {
