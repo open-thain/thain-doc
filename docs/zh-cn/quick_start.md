@@ -16,7 +16,7 @@
     - jdk >= 8
     - maven 3
     - nodejs >= 8
-    - 操作系统：Linux 或 MacOS 测试通过，windows前端编译*可能*会有问题
+    - 操作系统：Linux 或 MacOS 测试通过，windows前端编译 *可能* 会有问题
 
 1. 在项目根目录下依次执行
 
