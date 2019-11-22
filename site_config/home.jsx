@@ -3,8 +3,8 @@ import React from 'react';
 export default {
   'zh-cn': {
     brand: {
-      brandName: '开源产品品牌名称',
-      briefIntroduction: '关于开源产品的简单介绍',
+      brandName: 'Thain',
+      briefIntroduction: 'Thain是一款小米自研的分布式调度平台',
       buttons: [
         {
           text: '立即开始',
@@ -92,8 +92,8 @@ export default {
   },
   'en-us': {
     brand: {
-      brandName: 'brandName',
-      briefIntroduction: 'some description of product',
+      brandName: 'Thain',
+      briefIntroduction: 'Thain is a distributed flow schedule platform.',
       buttons: [
         {
           text: 'Quick Start',
