@@ -38,6 +38,10 @@ export default {
           },
         ],
       },
+      {
+        title: 'FAQ',
+        children: []
+      }
     ],
     barText: '文档',
   },
