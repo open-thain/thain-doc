@@ -1,4 +1,4 @@
-name: hexo deploy
+name: doc deploy
 
 on: push
 
