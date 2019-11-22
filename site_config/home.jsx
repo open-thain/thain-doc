@@ -60,7 +60,6 @@ export default {
     },
     start: {
       title: '快速开始',
-      desc: '简单描述',
       img: '/img/quick_start.png',
       button: {
         text: '阅读更多',
@@ -71,7 +70,7 @@ export default {
       title: '谁在使用Thain',
       desc: <span>如果你也在用，请联系我们https://github.com/XiaoMi/thain/issues</span>,
       list: [
-        '/img/xiaomi-logo.png',
+        '/img/xiaomi-logo.jpg',
       ],
     },
   },
@@ -133,11 +132,10 @@ export default {
       ]
     },
     start: {
-      title: '快速开始',
-      desc: '简单描述',
+      title: 'quick start',
       img: '/img/quick_start.png',
       button: {
-        text: '阅读更多',
+        text: 'read more',
         link: '/zh-cn/docs/demo1.html',
       },
     },
@@ -145,7 +143,7 @@ export default {
       title: 'Who is using Thain',
       desc: <span>If you are also using, please contact us at https://github.com/XiaoMi/thain/issues</span>,
       list: [
-        '/img/xiaomi-logo.png',
+        '/img/xiaomi-logo.jpg',
       ],
     },
   },
