@@ -32,13 +32,15 @@ jobs:
       - name: check out page
         run: |
           git clone -b gh-pages git@github.com:XiaoMi/thain.git
-          rm -rf *
 
-      - name: build and copy
+      - name: build
         run: |
           npm i -g docsite
           npm i
           docsite build
+      - name: clean and copy
+        run: |
+          rm -rf thain/*
           cp -R -f {build,img,zh-cn,en-us,index.html,404.html} thain
       
       - name: push
