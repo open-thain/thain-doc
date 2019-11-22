@@ -1,8 +1,8 @@
-node_modules
-en-us
-zh-cn
-md_json
-404.html
-index.html
-build
-package-lock.json
+/node_modules
+/en-us
+/zh-cn
+/md_json
+/404.html
+/index.html
+/build
+/package-lock.json
