@@ -1,1 +1,0 @@
-# thain-doc
