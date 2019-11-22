@@ -11,25 +11,3 @@ pages:
    title: 'thain'
    keywords: 'keyword1,keyword2'
    description: 'page description'
- community:
-  # 社区页配置
-  zh-cn:
-   title: 'thain'
-   keywords: '关键词1，关键词2'
-   description: '页面内容简介'
-  # community page config
-  en-us:
-   title: 'thain'
-   keywords: 'keyword1,keyword2'
-   description: 'page description'
- blog:
-  # 博客列表页配置
-  zh-cn:
-   title: 'thain'
-   keywords: '关键词1，关键词2'
-   description: '页面内容简介'
-  en-us:
-   # blog list page config
-   title: 'thain'
-   keywords: 'keyword1,keyword2'
-   description: 'page description'

@@ -17,16 +17,6 @@ export default {
         text: 'DOCS',
         link: '/en-us/docs/demo1.html',
       },
-      {
-        key: 'blog',
-        text: 'BLOG',
-        link: '/en-us/blog/index.html',
-      },
-      {
-        key: 'community',
-        text: 'COMMUNITY',
-        link: '/en-us/community/index.html',
-      },
     ],
     disclaimer: {
       title: 'Disclaimer',
@@ -53,16 +43,12 @@ export default {
       title: 'Resources',
       list: [
         {
-          text: 'Blog',
-          link: '/en-us/blog/index.html',
-        },
-        {
-          text: 'Community',
-          link: '/en-us/community/index.html',
+          text: 'GitHub',
+          link: 'https://github.com/XiaoMi/thain/issues',
         },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2020 XIAOMI ',
   },
   'zh-cn': {
     pageMenu: [
@@ -75,16 +61,6 @@ export default {
         key: 'docs',
         text: '文档',
         link: '/zh-cn/docs/demo1.html',
-      },
-      {
-        key: 'blog',
-        text: '博客',
-        link: '/zh-cn/blog/index.html',
-      },
-      {
-        key: 'community',
-        text: '社区',
-        link: '/zh-cn/community/index.html',
       },
     ],
     disclaimer: {
@@ -112,15 +88,11 @@ export default {
       title: '资源',
       list: [
         {
-          text: '博客',
-          link: '/zh-cn/blog/index.html',
-        },
-        {
-          text: '社区',
-          link: '/zh-cn/community/index.html',
+          text: 'GitHub',
+          link: 'https://github.com/XiaoMi/thain/issues',
         },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-  },
+    copyright: 'Copyright © 2020 XIAOMI ',
+   },
 };
