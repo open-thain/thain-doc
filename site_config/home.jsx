@@ -19,8 +19,8 @@ export default {
       ],
     },
     introduction: {
-      title: '分布式易扩展的可视化DAG工作流任务调度系统',
-      desc: 'Thain 是一个分布式去中心化，易扩展的可视化DAG工作流任务调度系统。致力于解决数据处理流程中错综复杂的依赖关系，使调度系统在数据处理流程中开箱即用。',
+      title: '高可用分布式可视化DAG流式任务调度平台',
+      desc: 'Thain 是小米自研的新一代分布式任务调度平台，提供定时、任务编排、分布式跑等功能。 Thain提供了任务调度与执行的一整套解决方案，在小米集团内部使用并久经考验，具有易学习、易上手、开发高效稳定的特点。 有完善的后台管理界面，支持任务的依赖，任务执行情况查看',
       img: '/img/architecture.png',
     },
     features: {
@@ -29,32 +29,32 @@ export default {
         {
           img: '/img/feature_transpart.png',
           title: '插件化',
-          content: '自定义一个插件只需要简单的一个java类。',
+          content: '自定义一个插件只需要简单的一个java类',
         },
         {
           img: '/img/feature_loadbalances.png',
           title: '高可用',
-          content: '不需要配置ZooKeeper等框架，自身就可以HA，不用担心机器突然挂掉。',
+          content: '不需要配置ZooKeeper等框架，自身就可以HA，不用担心机器突然挂掉',
         },
         {
           img: '/img/feature_service.png',
           title: '易扩展',
-          content: '横向扩展，只需要部署新的服务端即可。',
+          content: '横向扩展，只需要部署新的服务端即可',
         },
         {
           img: '/img/feature_hogh.png',
-          title: '操作简单',
-          content: '去繁就简，只保留最核心的功能。',
+          title: '去繁就简',
+          content: 'Keep It Simple, Stupid 只保留最核心的功能。一切扩展让用户自己决定',
         },
         {
           img: '/img/feature_runtime.png',
           title: 'HTTP 调用',
-          content: '自带SDK，可以配合其他系统一起使用。',
+          content: '自带SDK，可以配合其他系统一起使用',
         },
         {
           img: '/img/feature_maintenance.png',
           title: 'SLA',
-          content: '任务执行时长得到充分的保证。',
+          content: '任务执行时长得到充分的保证',
         },
       ],
     },
@@ -116,7 +116,7 @@ export default {
         },
         {
           img: '/img/feature_hogh.png',
-          title: 'Easy to use',
+          title: 'Keep It Simple, Stupid',
           content: 'Going to the simple, only retaining the most core functions.',
         },
         {
