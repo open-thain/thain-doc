@@ -27,7 +27,11 @@ export default {
             opened: true,
             children: [
               {
-                title: '数据库定制',
+                title: '数据库',
+                link: '/zh-cn/docs/custom-deployment/database.html',
+              },
+              {
+                title: '用户管理',
                 link: '/zh-cn/docs/custom-deployment/database.html',
               },
             ],
