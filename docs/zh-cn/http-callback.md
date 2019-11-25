@@ -12,7 +12,7 @@ HTTP 回调功能一般用于其他系统接入调度时使用。
 
 创建flow的时候可以填写`modify_callback_url`用于当flow修改时，回调指定的url
 
-触发逻辑|回调方法|回调格式|回调内容
+触发条件|method|content-type|回调内容
 -|-|-|-
 暂停|POST|FORM|{"status":1}
 继续|POST|FORM|{"status":2}
@@ -21,7 +21,7 @@ HTTP 回调功能一般用于其他系统接入调度时使用。
 
 创建flow的时候可以填写`callback_url`用于当flow execution状态发生变化时，回调指定的url
 
-触发逻辑|回调方法|回调格式|回调内容
+触发条件|method|content-type|回调内容
 -|-|-|-
 success|POST|FORM| {"flowId": x, "flowExecutionId": x, "code": 2}
 error|POST|FORM| {"flowId": x, "flowExecutionId": x, "code": 3, message": [失败原因]}
@@ -31,9 +31,9 @@ auto_killed|POST|FORM| {"flowId": x, "flowExecutionId": x, "code": 7}
 
 ## job execution执行状态发生变化回调
 
-创建job的时候可以填写`callback_url`用于当job execution状态发生变化时，回调指定的url\
+创建job的时候可以填写`callback_url`用于当job execution状态发生变化时，回调指定的url
 
-触发逻辑|回调方法|回调格式|回调内容
+触发条件|method|content-type|回调内容
 -|-|-|-
 running |POST|FORM| {"flowId": x, "flowExecutionId": x, "code": 2}
 success |POST|FORM| {"flowId": x, "flowExecutionId": x, "code": 3}
