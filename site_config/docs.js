@@ -18,6 +18,16 @@ export default {
             link: '/zh-cn/docs/quick_start.html',
           },
           {
+            title: '页面使用',
+            opened: true,
+            children: [
+              {
+                title: '创建Flow',
+                link: '/zh-cn/page-usage/create-flow.html',
+              },
+            ],
+          },
+          {
             title: '定制部署',
             opened: true,
             children: [
