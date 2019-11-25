@@ -8,7 +8,7 @@
 
 ## 整体介绍
 
-![introduction](./img/create-flow-introduction.jpg)
+![introduction](/img/docs/create-flow-introduction.jpg)
 
 如图，点击 区域1 进入新建Flow页面
 
@@ -18,10 +18,10 @@
 
 ## Job介绍
 
-![new-job](./img/create-flow-new-job.jpg)
+![new-job](/img/docs/create-flow-new-job.jpg)
 
 如图，拖动一个组件后，你会获得一个job，点击这个job，你可以对他进行编辑。
 
 > 每个组件具体的说明见文档 [组件](https://xiaomi.github.io/thain/zh-cn/docs/component/std/shell.html)
 
-![new-job](./img/create-flow-edit-job.png)
+![new-job](/img/docs/create-flow-edit-job.png)
