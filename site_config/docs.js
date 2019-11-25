@@ -32,6 +32,24 @@ export default {
             ],
           },
           {
+            title: '官方组件',
+            opened: true,
+            children: [
+              {
+                title: 'Shell',
+                link: '/zh-cn/docs/component/std/shell.html',
+              },
+              {
+                title: 'HTTP',
+                link: '/zh-cn/docs/component/std/http.html',
+              },
+              {
+                title: '邮件',
+                link: '/zh-cn/docs/component/std/mail.html',
+              }
+            ]
+          },
+          {
             title: 'HTTP回调',
             link: '/zh-cn/docs/http-callback.html',
           },
