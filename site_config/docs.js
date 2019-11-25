@@ -13,15 +13,10 @@ export default {
       {
         title: '文档',
         children: [
-
           {
             title: '快速启动',
             link: '/zh-cn/docs/quick_start.html',
           },
-          // {
-          //   title: '示例2',
-          //   link: '/zh-cn/docs/demo2.html',
-          // },
           {
             title: '定制部署',
             opened: true,
@@ -35,6 +30,10 @@ export default {
                 link: '/zh-cn/docs/custom-deployment/user.html',
               },
             ],
+          },
+          {
+            title: 'HTTP回调',
+            link: '/zh-cn/docs/http-callback.html',
           },
         ],
       },
