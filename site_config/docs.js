@@ -23,7 +23,7 @@ export default {
             children: [
               {
                 title: '创建Flow',
-                link: '/zh-cn/page-usage/create-flow.html',
+                link: '/zh-cn/docs/page-usage/create-flow.html',
               },
             ],
           },
