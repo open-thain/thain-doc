@@ -13,7 +13,7 @@
 1. 下载编译好的文件
 
     ```text
-    https://github.com/XiaoMi/thain/releases/download/v1.2.0/thain-server-1.2.0.jar
+    https://github.com/XiaoMi/thain/releases/download/v1.2.1/thain-server-1.2.1.jar
     ```
 
 1. 代码自行编译
@@ -46,7 +46,7 @@
 1. 在jar包所在路径执行
 
     ```shell
-    java -jar thain-server-1.2.0.jar
+    java -jar thain-server-1.2.1.jar
     ```
 
 1. 打开 [localhost:9900](http://localhost:9900) 就可以看到效果了
