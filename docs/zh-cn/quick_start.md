@@ -6,34 +6,49 @@
 
 # 快速启动
 
-1. 下载完整代码
+## 获取jar包
 
-   ```shell
-   git clone https://github.com/XiaoMi/thain.git
-   ```
+> 两种办法
 
-1. 运行环境需求
-    - jdk >= 8
-    - maven 3
-    - nodejs >= 8
-    - 操作系统：Linux 或 MacOS 测试通过，windows前端编译 *可能* 会有问题
+1. 下载编译好的文件
 
-1. 在项目根目录下依次执行
+    ```text
+    https://github.com/XiaoMi/thain/releases/download/v1.2.0/thain-server-1.2.0.jar
+    ```
 
-   ```shell
-   cd thain-fe
-   npm install
-   npm run build
-   cd ..
-   mvn -U clean package
-   ```
+1. 代码自行编译
 
-1. 打包完成后，即可运行
+    - 运行环境需求
+        - jdk >= 8
+        - maven 3
+        - nodejs >= 8
+        - 操作系统：Linux 或 MacOS 测试通过，windows前端编译 *可能* 会有问题
 
-   ```shell
-   java -jar thain-server/target/thain-server-1.2.0.jar
-   ```
+    - 在项目根目录下依次执行
 
-1. 打开 localhost:9900 就可以看到效果了
+       ```shell
+       git clone https://github.com/XiaoMi/thain.git
+       cd thain
+       cd thain-fe
+       npm install
+       npm run build
+       cd ..
+       mvn -U clean package
+       cd thain-server/target
+       ```
+
+## 运行jar包
+
+1. 环境要求
+
+    1. jre >= 8
+
+1. 在jar包所在路径执行
+
+    ```shell
+    java -jar thain-server-1.2.0.jar
+    ```
+
+1. 打开 [localhost:9900](http://localhost:9900) 就可以看到效果了
 
 1. 初始账号密码：admin, admin
