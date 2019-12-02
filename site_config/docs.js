@@ -19,7 +19,7 @@ export default {
           },
           {
             title: "页面使用",
-            opened: false,
+            opened: true,
             children: [
               {
                 title: "创建Flow",
@@ -29,7 +29,7 @@ export default {
           },
           {
             title: "定制部署",
-            opened: false,
+            opened: true,
             children: [
               {
                 title: "数据库",
@@ -56,7 +56,7 @@ export default {
           },
           {
             title: "std组件",
-            opened: false,
+            opened: true,
             children: [
               {
                 title: "Shell",
@@ -74,7 +74,7 @@ export default {
           },
           {
             title: "自定义组件",
-            opened: false,
+            opened: true,
             children: [
               {
                 title: "组件定义",
