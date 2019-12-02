@@ -19,7 +19,7 @@ export default {
           },
           {
             title: "页面使用",
-            opened: true,
+            opened: false,
             children: [
               {
                 title: "创建Flow",
@@ -29,7 +29,7 @@ export default {
           },
           {
             title: "定制部署",
-            opened: true,
+            opened: false,
             children: [
               {
                 title: "数据库",
@@ -51,12 +51,12 @@ export default {
         title: "组件使用",
         children: [
           {
-            title: "std组件说明",
+            title: "组件说明",
             link: "/zh-cn/docs/component/introduction.html"
           },
           {
             title: "std组件",
-            opened: true,
+            opened: false,
             children: [
               {
                 title: "Shell",
@@ -71,6 +71,24 @@ export default {
                 link: "/zh-cn/docs/component/std/mail.html"
               }
             ]
+          },
+          {
+            title: "自定义组件",
+            opened: false,
+            children: [
+              {
+                title: "组件定义",
+                link: "/zh-cn/docs/component/customize/definition.html"
+              },
+              {
+                title: "组件实现",
+                link: "/zh-cn/docs/component/customize/implementation.html"
+              }
+            ]
+          },
+          {
+            title: "组件组合使用示例",
+            link: "/zh-cn/docs/component/example.html"
           }
         ]
       },
