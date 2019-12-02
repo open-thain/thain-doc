@@ -20,14 +20,10 @@ method: GET 或  POST
 
 contentType: Content-Type
 
-referenceData: 流程数据引用, 多个用逗号分开, 如: `aName:a.name,bAge:b.age`, 冒号前面的是http发过去的key, 后面是value
+referenceData: 流程数据引用, 多个用逗号分开, 如: ```aName:a.name,bAge:b.age```, 冒号前面的是http发过去的key, 后面是value
 
 forwardData: 转发数据, 这个会原封不动的发给url, key是`forwardData`
 
 ## 产生结果
 
 result : http请求的返回结果
-
-## 其他
-
-可以在邮件标题和内容中用${}引用别的job产生的结果, 如: `${a.name}`
