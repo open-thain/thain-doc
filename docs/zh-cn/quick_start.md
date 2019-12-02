@@ -27,7 +27,7 @@
     - 在项目根目录下依次执行
 
        ```shell
-       git clone https://github.com/XiaoMi/thain.git
+       git clone -b v1.2.x https://github.com/XiaoMi/thain.git
        cd thain
        cd thain-fe
        npm install
