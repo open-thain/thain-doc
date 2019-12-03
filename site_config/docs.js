@@ -94,7 +94,12 @@ export default {
       },
       {
         title: "FAQ",
-        children: []
+        children: [
+          {
+            title: "FAQ",
+            link: "/zh-cn/docs/faq/faq.html"
+          }
+        ]
       }
     ],
     barText: "文档"
