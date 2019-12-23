@@ -24,6 +24,8 @@ referenceData: 流程数据引用, 多个用逗号分开, 如: ```aName:a.name,b
 
 forwardData: 转发数据, 这个会原封不动的发给url, key是`forwardData`
 
+resultRegular: 结果正则表达式验证, 如果http返回的result不满足这个正则表达式，则视为失败，不填写则不验证
+
 ## 产生结果
 
 result : http请求的返回结果

@@ -23,8 +23,7 @@ thain/thain-component/com.xiaomi.thain.component
 如：
 
 ```java
-@ThainComponent(group = "std", name = "mail",
-        defineJson = "这里填上一节写好的mail定义")
+@ThainComponent("这里填上一节写好的mail定义")
 ```
 
 ## 定义属性

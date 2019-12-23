@@ -6,48 +6,47 @@
 
 # 快速启动
 
-## 获取jar包
+## 获取 jar 包
 
 > 两种办法
 
 1. 下载编译好的文件
 
-    ```text
-    https://github.com/XiaoMi/thain/releases/download/v1.2.2/thain-server-1.2.2.jar
-    ```
+   ```text
+   https://github.com/XiaoMi/thain/releases/download/v1.3.0-beta.0/thain-server-1.3.0-beta.0.jar
+   ```
 
 1. 代码自行编译
 
-    - 运行环境需求
-        - jdk >= 8
-        - maven 3
-        - nodejs >= 8
-        - 操作系统：Linux 或 MacOS 测试通过，windows前端编译 *可能* 会有问题
+   - 运行环境需求
 
-    - 在项目根目录下依次执行
+     - jdk >= 8
+     - nodejs >= 8
+     - 操作系统：Linux 或 MacOS 测试通过，windows 前端编译 _可能_ 会有问题
 
-       ```shell
-       git clone -b v1.2.x https://github.com/XiaoMi/thain.git
-       cd thain
-       cd thain-fe
-       npm install
-       npm run build
-       cd ..
-       mvn -U clean package
-       cd thain-server/target
-       ```
+   - 在项目根目录下依次执行
 
-## 运行jar包
+     ```shell
+     git clone -b v1.2.x https://github.com/XiaoMi/thain.git
+     cd thain-fe
+     npm install
+     npm run build
+     cd ..
+     ./gradlew clean builde
+     cd thain-server/build/libs
+     ```
+
+## 运行 jar 包
 
 1. 环境要求
 
-    1. jre >= 8
+   1. jre >= 8
 
-1. 在jar包所在路径执行
+1. 在 jar 包所在路径执行
 
-    ```shell
-    java -jar thain-server-1.2.2.jar
-    ```
+   ```shell
+   java -jar thain-server-1.3.0-beta.0.jar
+   ```
 
 1. 打开 [localhost:9900](http://localhost:9900) 就可以看到效果了
 

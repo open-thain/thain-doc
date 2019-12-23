@@ -20,7 +20,14 @@
 可以用[这个网站](https://app.quicktype.io/)生成 json 定义
 
 ```ts
-type ComponentDefineJson = Array<{
+export interface ComponentDefine {
+  group: string;
+  name: string;
+  hidden: boolean;
+  items: ComponentDefineItem[];
+}
+
+export interface ComponentDefineItem {
   /**
    * 传到后端的key
    */
@@ -50,7 +57,7 @@ type ComponentDefineJson = Array<{
           name?: string;
         }>;
       };
-}>;
+}
 ```
 
 ## 举个例子
@@ -58,51 +65,62 @@ type ComponentDefineJson = Array<{
 参考 std::mail 组件的 json 定义。
 
 ```json
-[
-  {
-    "property": "title",
-    "label": "邮件标题",
-    "required": true,
-    "input": {
-      "id": "textarea"
+{
+  "group": "std",
+  "name": "mail",
+  "hidden": false,
+  "items": [
+    {
+      "property": "title",
+      "label": "邮件标题",
+      "required": true,
+      "input": {
+        "id": "textarea"
+      }
+    },
+    {
+      "property": "contentHtml",
+      "label": "邮件内容",
+      "required": true,
+      "input": {
+        "id": "richText"
+      }
+    },
+    {
+      "property": "recipient",
+      "label": "收件人（多个用逗号隔开）",
+      "required": true,
+      "input": {
+        "id": "textarea"
+      }
     }
-  },
-  {
-    "property": "contentHtml",
-    "label": "邮件内容",
-    "required": true,
-    "input": {
-      "id": "richText"
-    }
-  },
-  {
-    "property": "recipient",
-    "label": "收件人（多个用逗号隔开）",
-    "required": true,
-    "input": {
-      "id": "textarea"
-    }
-  }
-]
+  ]
+}
 ```
 
-每一个 property 都是用户可以在页面输入的项。
+group: 组件分类
+
+name: 组件名称
+
+hidden: 组件在前端是否影藏
+
+item: 每一个 property 都是用户可以在页面输入的项
 
 ## 页面支持的 input 类型
 
 1. line
-    - 单行文本框
+   - 单行文本框
 1. textarea
-    - 多行文本框
+   - 多行文本框
 1. sql
-    - sql输入框
+   - sql 输入框
 1. shell
-    - shell输入框
+   - shell 输入框
 1. richText
-    - 富文本编辑器
+   - 富文本编辑器
 1. uploadBase64
-    - 文件上传
+   - 文件上传
 1. select
-    - 下拉单选框
+   - 下拉单选框
 
-如果还有你需要的，可以提issus。
+如果还有你需要的，可以提 issus。
