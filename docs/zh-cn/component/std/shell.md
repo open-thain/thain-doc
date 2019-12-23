@@ -4,7 +4,7 @@
  can be found in the LICENSE file in the root directory of this source tree.
 -->
 
-# Shell脚本执行组件
+# Shell 脚本执行组件
 
 ## 组件名称
 
@@ -20,4 +20,4 @@ environmentVariable: shell 变量（xxx=yyy 形式，多个用换行隔开）
 
 ## 其他
 
-推荐在页面创建时候使用该组件, 如果是第三方系统建议用http在自己的系统实现
+推荐在页面创建时候使用该组件, 如果是第三方系统建议用 http 在自己的系统实现

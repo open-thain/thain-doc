@@ -6,7 +6,7 @@
 
 # 组件实现
 
-现阶段组件实现只支持java。
+现阶段组件实现只支持 java。
 
 ## 实现位置
 
@@ -18,7 +18,7 @@ thain/thain-component/com.xiaomi.thain.component
 
 上一节讲了如果写一个定义，我们实现的时候，需要把之前的定义引入。
 
-在类上使用com.xiaomi.thain.component.annotation.ThainComponent这个注解。
+在类上使用 com.xiaomi.thain.component.annotation.ThainComponent 这个注解。
 
 如：
 
@@ -28,7 +28,7 @@ thain/thain-component/com.xiaomi.thain.component
 
 ## 定义属性
 
-把json定义中的property放在class中，都用String类型接收。
+把 json 定义中的 property 放在 class 中，都用 String 类型接收。
 
 如：
 
@@ -162,14 +162,14 @@ public interface ComponentTools {
 
 ## 实现执行逻辑
 
-在组件的class中定义一个run方法即可。
+在组件的 class 中定义一个 run 方法即可。
 
 ```java
 private void run()
 ```
 
-## job执行状态
+## job 执行状态
 
-job的执行状态取决于run方法中是否抛了异常。
+job 的执行状态取决于 run 方法中是否抛了异常。
 
 如果抛了就是为失败，没抛就是为成功。

@@ -23,7 +23,7 @@
 
 1. 添加用户
 
-   管理员登录后，可以进入/admin/user页面添加用户
+   管理员登录后，可以进入/admin/user 页面添加用户
 
 ## Ldap 用户管理
 
@@ -88,50 +88,50 @@
 
 1. 如需手动注册 ClientRegistration,可以按照如下配置
 
-    ```java
-    @Configuration
-    public class OAuth2LoginConfig {
-        //添加客户端并注册bean
-        @Bean
-        public ClientRegistrationRepository clientRegistrationRepository() {
-            return new InMemoryClientRegistrationRepository(this.googleClientRegistration());
-        }
+   ```java
+   @Configuration
+   public class OAuth2LoginConfig {
+       //添加客户端并注册bean
+       @Bean
+       public ClientRegistrationRepository clientRegistrationRepository() {
+           return new InMemoryClientRegistrationRepository(this.googleClientRegistration());
+       }
 
-        //添加google客户端的配置
-        private ClientRegistration googleClientRegistration() {
-            return ClientRegistration.withRegistrationId("google")
-                 .clientId("google-client-id")
-                 .clientSecret("google-client-secret")
-                 //...
-                 .clientName("Google")
-                 .build();
-        }
-    }
-    ```
+       //添加google客户端的配置
+       private ClientRegistration googleClientRegistration() {
+           return ClientRegistration.withRegistrationId("google")
+                .clientId("google-client-id")
+                .clientSecret("google-client-secret")
+                //...
+                .clientName("Google")
+                .build();
+       }
+   }
+   ```
 
    并修改
 
-    ```java
-    @EnableWebSecurity
-    @Log4j2
-    public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+   ```java
+   @EnableWebSecurity
+   @Log4j2
+   public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-        @Autowired
-        private final ClientRegistrationRepository clientRegistrationRepository;
+       @Autowired
+       private final ClientRegistrationRepository clientRegistrationRepository;
 
-        //...
-        /**
-         * 第三方登录配置
-         *
-         * @param http HttpSecurity
-         */
-        private void thirdConfig(HttpSecurity http) throws Exception {
-           http.oauth2Login()
-           .clientRegistrationRepository(clientRegistrationRepository);
-           //...
-        }
-    }
-    ```
+       //...
+       /**
+        * 第三方登录配置
+        *
+        * @param http HttpSecurity
+        */
+       private void thirdConfig(HttpSecurity http) throws Exception {
+          http.oauth2Login()
+          .clientRegistrationRepository(clientRegistrationRepository);
+          //...
+       }
+   }
+   ```
 
 1. 修改前端项目 thain-fe 的登录页面,添加相应第三方登录链接,系统默认提供了 google 的第三方登录
 
