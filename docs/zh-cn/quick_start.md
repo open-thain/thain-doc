@@ -22,7 +22,7 @@
 
      - jdk >= 8
      - nodejs >= 8
-     - 操作系统：Linux 或 MacOS 测试通过，windows 前端编译 _可能_ 会有问题
+     - 操作系统：Linux 或 MacOS, 不支持windows
 
    - 在项目根目录下依次执行
 
